@@ -85,5 +85,4 @@ function addInterest(friend: Friend, interest: string): string[] {
   return friend.interests;
 }
 
-
 console.log(addInterest(friends[1], 'Politics'))
